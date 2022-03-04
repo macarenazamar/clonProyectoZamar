@@ -1,0 +1,106 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #202020ef;
+}
+.titulo{
+    display: none;
+}
+.datos{
+    width: 100px;
+}
+
+.nosotros-texto{
+    color:#dac879
+}
+
+.imag-text{
+    color:#dac879
+}
+
+.servicio-productos{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr); 
+    grid-template-rows:repeat(3, 1fr);
+    height: 100vh;
+} /* terminar de acomodar
+ponerle una clase a las imagenes y luego probar
+.nombre-clase-img{
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;} 
+    esto es para sacrle el fondo balnco */
+
+.titulo-formulario{
+    color:#ebc91e
+}
+.formulario{
+    color: white
+}
+.section__product{
+    display: grid;
+    height: auto;
+    background-image: url(../imagenes/motor3.jpg);
+    background-position: center;
+    margin: 5px;
+    height: 80vh; 
+}
+.section__title{
+    color: #dac879;
+    margin: 3%;
+    padding: 10px;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+}
+.section__description{
+    color: rgb(165, 163, 154);
+    margin: 5%;
+    padding: 2px;
+    width: 70vh;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;   
+}
+.boton{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5%;
+    color: whitesmoke;
+    background: #8e8f82;
+    font-family: 'Roboto', sans-serif;
+}
+.boton:hover{
+    color: #dbeb1e;
+}
+.maps__location{
+    width: 100%;
+}
+.section__cv{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: space-evenly;    
+    margin-block-end: 10%;
+}    
+.trabajo__img{
+    width: 100%;
+}
+.form-padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.form-ancho{
+    width: 50vh;
+    position: center;
+    margin: 10vh;
+    
+}
+    

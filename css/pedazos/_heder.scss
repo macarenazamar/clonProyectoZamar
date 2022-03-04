@@ -1,0 +1,41 @@
+
+.header__index{
+    display: grid;
+    grid-template-columns:auto;
+    align-items: center;   
+    justify-content:first baseline ;
+}
+.header__inicio{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+.header__logo{
+    background-position: center;
+    
+}
+nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #ebc91e;
+    background-position: center; 
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 20px;
+	color: black;
+    font-weight: bold;
+	text-decoration: none;
+    display: inline-block;
+    float: right;
+    
+}
+nav li a:hover{
+        color: grey;
+}

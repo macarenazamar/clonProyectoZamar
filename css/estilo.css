@@ -1,0 +1,52 @@
+
+
+ 
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px){
+   
+    .header__inicio{
+        flex-direction: column;
+        height: auto;
+        width: 50%;
+    }
+    .section__product{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .product{
+        width: 100%;
+        
+    }
+    .product__img{
+        display: none;
+    }
+    .section__description{
+        width: 50%;
+    }
+    .section__ubicacion{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .ubication{
+        width: 100%;
+    }
+    .section__cv{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: flex-start;
+        margin: auto;
+    }
+    .cv{
+        background-image: url(../imagenes/TRABAJA.jpg);
+    }
+    .cv__img{
+        display: none;
+    }
+}
+    
+@media screen and (max-width: 425px){
+
+}
